@@ -6,11 +6,6 @@ This repository contains my completed work for the **Deloitte Data Analytics Vir
 
 ---
 
-## Dashboard Preview
-
-![Dashboard](Tableau/Dashboard.png)
-
----
 
 ## Project Tasks
 

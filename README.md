@@ -102,11 +102,14 @@ deloitte-data-analytics-job-simulation
 │
 ├── README.md
 ├── Tableau/
-│   └── dashboard.png
+│   ├── Dashboard.png
+│   └── Dashboard.twb
+│
 ├── Excel/
 │   └── Equality_Table.xlsx
+│
 └── Certificate/
-    └── Deloitte_Data_Analytics_Certificate.pdf
+    └── Deloitte_Forage_Certificate.pdf
 ```
 
 ---

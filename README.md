@@ -8,7 +8,7 @@ This repository contains my completed work for the **Deloitte Data Analytics Vir
 
 ## Dashboard Preview
 
-![Dashboard](Tableau/dashboard.png)
+![Dashboard](Tableau/Dashboard.png)
 
 ---
 

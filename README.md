@@ -1,55 +1,74 @@
-# Deloitte Data Analytics Virtual Job Simulation (Forage)
+# Deloitte Data Analytics Job Simulation (Forage)
 
 ## Overview
 
-This repository contains my completed Deloitte Data Analytics Virtual Job Simulation on Forage.
+This repository showcases my work completed as part of the **Deloitte Data Analytics Job Simulation** hosted on **Forage**.
 
-The simulation focuses on solving real-world business problems using Tableau and Microsoft Excel.
+The simulation provided hands-on experience with real-world business scenarios, focusing on data analysis, data visualization, and forensic analytics using **Tableau** and **Microsoft Excel**.
 
 ---
 
-## Task 1 – Data Analysis
+## Certificate
 
-### Objective
+**Issued By:** Deloitte (via Forage)
 
-Analyze telemetry data collected from multiple factories and identify downtime patterns.
+**Simulation:** Data Analytics Job Simulation
 
-### Work Completed
+**Status:** Completed
 
-- Imported JSON telemetry data into Tableau
-- Created calculated field:
-  - Unhealthy
+> The completion certificate is included in this repository under the `Certificate` folder.
+
+---
+
+## Project Tasks
+
+### Task 1 – Data Analysis
+
+**Objective**
+
+Analyze machine telemetry data collected from multiple manufacturing factories and identify downtime patterns.
+
+**Tools Used**
+
+- Tableau
+- JSON Dataset
+
+**Work Performed**
+
+- Imported JSON data into Tableau
+- Created a calculated field to measure machine downtime
 - Built an interactive dashboard
-- Visualized:
-  - Down Time per Factory
-  - Down Time per Device Type
-- Applied dashboard filters
+- Visualized downtime by:
+  - Factory
+  - Device Type
+- Applied dashboard filtering to analyze individual factory performance
 
-### Tools
+**Deliverable**
 
-- Tableau Public/Desktop
+Interactive Tableau Dashboard
 
 ---
 
-## Task 2 – Forensic Technology
+### Task 2 – Forensic Technology
 
-### Objective
+**Objective**
 
-Investigate employee gender pay equality using Equality Scores.
+Investigate gender pay equality using employee equality scores.
 
-### Work Completed
+**Tools Used**
 
-- Used Microsoft Excel
-- Created Equality Class column
-- Applied logical classification using Excel IF function
+- Microsoft Excel
 
-Classification Rules
+**Work Performed**
 
-- Fair (-10 to +10)
-- Unfair (-20 to -11 and 11 to 20)
-- Highly Discriminative (< -20 or > 20)
+- Created an **Equality Class** column
+- Classified equality scores into:
+  - Fair
+  - Unfair
+  - Highly Discriminative
+- Used Excel logical functions to automate classification
 
-Formula Used
+**Formula Used**
 
 ```excel
 =IF(ABS(C2)<=10,"Fair",IF(ABS(C2)>20,"Highly Discriminative","Unfair"))
@@ -60,39 +79,61 @@ Formula Used
 ## Skills Demonstrated
 
 - Data Analytics
-- Data Cleaning
 - Data Visualization
 - Dashboard Development
 - Tableau
 - Microsoft Excel
+- Data Interpretation
 - Calculated Fields
-- Excel IF Function
 - Business Analysis
 - Forensic Data Analysis
+- Excel IF Functions
+- Interactive Dashboards
 
 ---
 
 ## Repository Structure
 
 ```
-
-Tableau/
-Excel/
-Certificate/
-Screenshots/
-
+deloitte-data-analytics-job-simulation/
+│
+├── README.md
+├── Tableau/
+│   └── dashboard.png
+│
+└── Certificate/
+    └── Deloitte_Data_Analytics_Certificate.pdf
 ```
 
 ---
 
-## Certificate
+## Key Learning Outcomes
 
-Completed Deloitte Data Analytics Virtual Job Simulation on Forage.
+- Built interactive dashboards using Tableau.
+- Analyzed operational telemetry data to identify downtime trends.
+- Applied Excel functions to classify business data efficiently.
+- Developed practical data analytics skills through realistic business scenarios.
 
 ---
 
-## Author
+## About Me
 
-Nasrin Khatoon
+**Nasrin Khatoon**
 
-Aspiring Data Analyst
+Aspiring Data Analyst passionate about transforming data into meaningful insights through analytics and visualization.
+
+**Skills**
+
+- SQL
+- Python
+- Excel
+- Power BI
+- Tableau
+- Pandas
+- NumPy
+
+---
+
+## Acknowledgement
+
+This project was completed as part of the **Deloitte Data Analytics Job Simulation** offered by **Forage**, designed to provide practical exposure to real-world data analytics tasks.

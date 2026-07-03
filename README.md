@@ -1,74 +1,66 @@
-# Deloitte Data Analytics Job Simulation (Forage)
+# Deloitte Data Analytics Virtual Job Simulation (Forage)
 
 ## Overview
 
-This repository showcases my work completed as part of the **Deloitte Data Analytics Job Simulation** hosted on **Forage**.
-
-The simulation provided hands-on experience with real-world business scenarios, focusing on data analysis, data visualization, and forensic analytics using **Tableau** and **Microsoft Excel**.
+This repository contains my completed work for the **Deloitte Data Analytics Virtual Job Simulation** on **Forage**. The simulation involved solving real-world business problems using **Tableau** and **Microsoft Excel**, focusing on data visualization, dashboard development, and forensic data analysis.
 
 ---
 
-## Certificate
+## Dashboard Preview
 
-**Issued By:** Deloitte (via Forage)
-
-**Simulation:** Data Analytics Job Simulation
-
-**Status:** Completed
-
-> The completion certificate is included in this repository under the `Certificate` folder.
+![Dashboard](Tableau/dashboard.png)
 
 ---
 
 ## Project Tasks
 
-### Task 1 – Data Analysis
+### 📊 Task 1 – Data Analysis
 
-**Objective**
+#### Objective
 
-Analyze machine telemetry data collected from multiple manufacturing factories and identify downtime patterns.
+Analyze machine telemetry data collected from multiple manufacturing factories to identify downtime patterns and build an interactive dashboard.
 
-**Tools Used**
+#### Tools Used
 
 - Tableau
 - JSON Dataset
 
-**Work Performed**
+#### Work Completed
 
-- Imported JSON data into Tableau
-- Created a calculated field to measure machine downtime
+- Imported JSON telemetry data into Tableau
+- Created a calculated field (**Unhealthy**) to measure machine downtime
 - Built an interactive dashboard
-- Visualized downtime by:
-  - Factory
-  - Device Type
-- Applied dashboard filtering to analyze individual factory performance
+- Visualized:
+  - Down Time per Factory
+  - Down Time per Device Type
+- Applied dashboard filters for factory-level analysis
 
-**Deliverable**
+#### Deliverable
 
 Interactive Tableau Dashboard
 
 ---
 
-### Task 2 – Forensic Technology
+### 📈 Task 2 – Forensic Technology
 
-**Objective**
+#### Objective
 
-Investigate gender pay equality using employee equality scores.
+Investigate employee gender pay equality using Equality Scores and classify each record based on predefined business rules.
 
-**Tools Used**
+#### Tools Used
 
 - Microsoft Excel
 
-**Work Performed**
+#### Work Completed
 
 - Created an **Equality Class** column
 - Classified equality scores into:
   - Fair
   - Unfair
   - Highly Discriminative
-- Used Excel logical functions to automate classification
+- Automated classification using Excel logical functions
 
-**Formula Used**
+#### Formula Used
 
 ```excel
 =IF(ABS(C2)<=10,"Fair",IF(ABS(C2)>20,"Highly Discriminative","Unfair"))
@@ -83,24 +75,36 @@ Investigate gender pay equality using employee equality scores.
 - Dashboard Development
 - Tableau
 - Microsoft Excel
+- Business Analysis
 - Data Interpretation
 - Calculated Fields
-- Business Analysis
-- Forensic Data Analysis
-- Excel IF Functions
 - Interactive Dashboards
+- Excel IF Functions
+- Forensic Data Analysis
+
+---
+
+## Technologies Used
+
+- Tableau
+- Microsoft Excel
+- JSON
+- Data Visualization
+- Dashboard Design
+- Data Analytics
 
 ---
 
 ## Repository Structure
 
-```
-deloitte-data-analytics-job-simulation/
+```text
+deloitte-data-analytics-job-simulation
 │
 ├── README.md
 ├── Tableau/
 │   └── dashboard.png
-│
+├── Excel/
+│   └── Equality_Table.xlsx
 └── Certificate/
     └── Deloitte_Data_Analytics_Certificate.pdf
 ```
@@ -111,29 +115,38 @@ deloitte-data-analytics-job-simulation/
 
 - Built interactive dashboards using Tableau.
 - Analyzed operational telemetry data to identify downtime trends.
-- Applied Excel functions to classify business data efficiently.
-- Developed practical data analytics skills through realistic business scenarios.
+- Applied Excel formulas to classify business data efficiently.
+- Improved analytical thinking by solving realistic business problems.
+- Gained practical experience with data visualization and forensic analytics.
 
 ---
 
 ## About Me
 
-**Nasrin Khatoon**
+I am an aspiring **Data Analyst** passionate about transforming raw data into meaningful insights through analytics and visualization.
 
-Aspiring Data Analyst passionate about transforming data into meaningful insights through analytics and visualization.
-
-**Skills**
+### Technical Skills
 
 - SQL
 - Python
-- Excel
-- Power BI
+- Microsoft Excel
 - Tableau
+- Power BI
 - Pandas
 - NumPy
 
 ---
 
+## Certificate
+
+Successfully completed the **Deloitte Data Analytics Virtual Job Simulation** offered by **Forage**.
+
+The completion certificate is available in the **Certificate** folder of this repository.
+
+---
+
 ## Acknowledgement
 
-This project was completed as part of the **Deloitte Data Analytics Job Simulation** offered by **Forage**, designed to provide practical exposure to real-world data analytics tasks.
+This project was completed as part of the **Deloitte Data Analytics Virtual Job Simulation** provided by **Forage**. The simulation offers practical exposure to real-world data analytics, dashboard development, and business problem-solving.
+
+---

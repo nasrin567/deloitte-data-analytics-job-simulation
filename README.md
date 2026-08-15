@@ -1,26 +1,26 @@
-# Deloitte Data Analytics Virtual Job Simulation (Forage)
+# 📊 Deloitte Data Analytics Virtual Job Simulation (Forage)
 
-## Overview
+## 🔎 Overview
 
 This repository contains my completed work for the **Deloitte Data Analytics Virtual Job Simulation** on **Forage**. The simulation involved solving real-world business problems using **Tableau** and **Microsoft Excel**, focusing on data visualization, dashboard development, and forensic data analysis.
 
 ---
 
 
-## Project Tasks
+## 📌 Project Tasks
 
 ### 📊 Task 1 – Data Analysis
 
-#### Objective
+#### 🎯 Objective
 
 Analyze machine telemetry data collected from multiple manufacturing factories to identify downtime patterns and build an interactive dashboard.
 
-#### Tools Used
+#### 🛠️ Tools Used
 
 - Tableau
 - JSON Dataset
 
-#### Work Completed
+#### ✅ Work Completed
 
 - Imported JSON telemetry data into Tableau
 - Created a calculated field (**Unhealthy**) to measure machine downtime
@@ -30,11 +30,11 @@ Analyze machine telemetry data collected from multiple manufacturing factories t
   - Down Time per Device Type
 - Applied dashboard filters for factory-level analysis
 
-#### Dashboard Preview
+#### 🖼️ Dashboard Preview
 
 ![Deloitte Tableau Dashboard](Tableau/Dashboard.png)
 
-#### Deliverable
+#### 📦 Deliverable
 
 Interactive Tableau Dashboard
 
@@ -42,24 +42,24 @@ Interactive Tableau Dashboard
 
 ### 📈 Task 2 – Forensic Technology
 
-#### Objective
+#### 🎯 Objective
 
 Investigate employee gender pay equality using Equality Scores and classify each record based on predefined business rules.
 
-#### Tools Used
+#### 🛠️ Tools Used
 
 - Microsoft Excel
 
-#### Work Completed
+#### ✅ Work Completed
 
 - Created an **Equality Class** column
 - Classified equality scores into:
-  - Fair
-  - Unfair
-  - Highly Discriminative
+  - 🟢 Fair
+  - 🟡 Unfair
+  - 🔴 Highly Discriminative
 - Automated classification using Excel logical functions
 
-#### Formula Used
+#### 🧮 Formula Used
 
 ```excel
 =IF(ABS(C2)<=10,"Fair",IF(ABS(C2)>20,"Highly Discriminative","Unfair"))
@@ -113,7 +113,7 @@ deloitte-data-analytics-job-simulation
 
 ---
 
-## Key Learning Outcomes
+## 🎓 Key Learning Outcomes
 
 - Built interactive dashboards using Tableau.
 - Analyzed operational telemetry data to identify downtime trends.
@@ -123,11 +123,11 @@ deloitte-data-analytics-job-simulation
 
 ---
 
-## About Me
+## 👤 About Me
 
 I am an aspiring **Data Analyst** passionate about transforming raw data into meaningful insights through analytics and visualization.
 
-### Technical Skills
+### 🧰 Technical Skills
 
 - SQL
 - Python
@@ -139,7 +139,7 @@ I am an aspiring **Data Analyst** passionate about transforming raw data into me
 
 ---
 
-## Certificate
+## 🏆 Certificate
 
 Successfully completed the **Deloitte Data Analytics Virtual Job Simulation** offered by **Forage**.
 
@@ -147,7 +147,7 @@ The completion certificate is available in the **Certificate** folder of this re
 
 ---
 
-## Acknowledgement
+## 🙏 Acknowledgement
 
 This project was completed as part of the **Deloitte Data Analytics Virtual Job Simulation** provided by **Forage**. The simulation offers practical exposure to real-world data analytics, dashboard development, and business problem-solving.
 

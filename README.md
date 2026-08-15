@@ -30,6 +30,10 @@ Analyze machine telemetry data collected from multiple manufacturing factories t
   - Down Time per Device Type
 - Applied dashboard filters for factory-level analysis
 
+#### Dashboard Preview
+
+![Deloitte Tableau Dashboard](Tableau/Dashboard.png)
+
 #### Deliverable
 
 Interactive Tableau Dashboard
